@@ -1,0 +1,56 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>Olympic Games</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="olympicgames.css">
+	</head>	
+	<body>
+	
+	<div class="diepafh">
+	<h2>Olympic Games:Store Medals Results</h2><br>
+	<div class="athlhmata">
+		<form action="olympicgames.php" method="post">
+	
+			<label for="Sport">Sport:</label>
+				<select name="sports" id="sports">
+					<option value=""></option>
+					<option value="Archery">Archery</option>
+					<option value="Athletics">Athletics</option>
+					<option value="Badminton">Badminton</option>
+				</select>
+				<br>
+				
+				
+			<label for="Country">Country:</label>
+				<select name="country" id="country">
+					<option value=""></option>
+					<option value="Afghanistan">Afghanistan</option>
+					<option value="Albania">Albania</option>
+					<option value="Algeria">Algeria</option>
+				</select>
+				<br><br>
+
+			<label for="Medals"><h4>Medals:</h4></label>
+			
+				<input type="radio" id="ch1" name="medals" value="gold">Gold<br>
+				<input type="radio" id="ch2" name="medals" value="silver">Silver<br>
+				<input type="radio" id="ch3" name="medals" value="bronze">Bronze<br><br>
+
+				
+				
+				<input type="submit" value="Store">
+				
+				
+				
+		</form>
+		
+		<form method="post" action="olympic.php">
+		<input id="bt" type="submit" value="View Medal Standings">
+		</form>
+	</div>
+	</div>
+	</body>
+</html>
+

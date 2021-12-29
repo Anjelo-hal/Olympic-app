@@ -1,0 +1,69 @@
+body{
+
+}
+.diepafh{
+	border-style:solid;
+	border-color:grey;
+	border-width:2px;
+	width:30%;
+	position:fixed;
+	text-align:center;
+	margin-left: 475px;
+	margin-top : 90px;
+}
+.athlhmata{
+	text-align:left;
+	margin-left:2%;
+	
+}
+#bt{
+	margin-bottom: 15px;
+	
+}
+
+#ch1{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: light-grey;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    outline: none;
+    
+}
+#ch1:checked{
+	background-color:gold;
+}
+#ch2{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: light-grey;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    outline: none;
+    
+}
+#ch2:checked{
+	background-color:silver;
+}
+#ch3{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: light-grey;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    outline: none;
+    
+}
+#ch3:checked{
+	background-color:brown;
+}
+.koubi1{
+	text-align:left;
+	margin-left:3%;
+}
